@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#99F1C1C8">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/fghjk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date and Time"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/adapter_startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/gbnm"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="User:" />
+
+        <TextView
+            android:id="@+id/adapter_userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="312dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#9939040C"
+            android:onClick="funcDelete"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn_assign"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#9939040C"
+            android:onClick="funcAssign"
+            android:text="assign"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
